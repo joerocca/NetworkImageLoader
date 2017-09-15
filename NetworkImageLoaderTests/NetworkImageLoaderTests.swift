@@ -18,6 +18,8 @@ class NetworkImageLoaderTests: XCTestCase {
     
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
+        clearCaches()
+        
         super.tearDown()
     }
     
@@ -37,7 +39,7 @@ class NetworkImageLoaderTests: XCTestCase {
     func testCancelImageDownload() {
         let expectation = self.expectation(description: "wait for downloading image")
         
-        let task = NetworkImageLoader.shared.downloadAndCacheImage(withUrl: testImageUrl) { (image, error) in
+        let task = NetworkImageLoader.shared.downloadAndCacheImage(withUrl: testImageUrl, forceRefresh: true) { (image, error) in
             expectation.fulfill()
             
             XCTAssertNotNil(error)
