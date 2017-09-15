@@ -12,6 +12,7 @@
 		D815F0CD1F5FB19B0084F69B /* UIImageView+NetworkImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D815F0CA1F5FB19B0084F69B /* UIImageView+NetworkImageLoader.swift */; };
 		D815F0CF1F65D67D0084F69B /* UIImageViewExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D815F0CE1F65D67D0084F69B /* UIImageViewExtensionTests.swift */; };
 		D815F0D11F69859D0084F69B /* NetworkImageLoaderTestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D815F0D01F69859D0084F69B /* NetworkImageLoaderTestHelper.swift */; };
+		D8DBBD131F6C45190081C844 /* ImageCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DBBD121F6C45190081C844 /* ImageCacheTests.swift */; };
 		D8FFDE6E1F5B5963008F799B /* NetworkImageLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8FFDE641F5B5963008F799B /* NetworkImageLoader.framework */; };
 		D8FFDE731F5B5963008F799B /* NetworkImageLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FFDE721F5B5963008F799B /* NetworkImageLoaderTests.swift */; };
 		D8FFDE751F5B5963008F799B /* NetworkImageLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = D8FFDE671F5B5963008F799B /* NetworkImageLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,6 +34,7 @@
 		D815F0CA1F5FB19B0084F69B /* UIImageView+NetworkImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+NetworkImageLoader.swift"; sourceTree = "<group>"; };
 		D815F0CE1F65D67D0084F69B /* UIImageViewExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtensionTests.swift; sourceTree = "<group>"; };
 		D815F0D01F69859D0084F69B /* NetworkImageLoaderTestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkImageLoaderTestHelper.swift; sourceTree = "<group>"; };
+		D8DBBD121F6C45190081C844 /* ImageCacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheTests.swift; sourceTree = "<group>"; };
 		D8FFDE641F5B5963008F799B /* NetworkImageLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NetworkImageLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8FFDE671F5B5963008F799B /* NetworkImageLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkImageLoader.h; sourceTree = "<group>"; };
 		D8FFDE681F5B5963008F799B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			children = (
 				D8FFDE721F5B5963008F799B /* NetworkImageLoaderTests.swift */,
 				D815F0CE1F65D67D0084F69B /* UIImageViewExtensionTests.swift */,
+				D8DBBD121F6C45190081C844 /* ImageCacheTests.swift */,
 				D815F0D01F69859D0084F69B /* NetworkImageLoaderTestHelper.swift */,
 				D8FFDE741F5B5963008F799B /* Info.plist */,
 			);
@@ -227,6 +230,7 @@
 			files = (
 				D815F0D11F69859D0084F69B /* NetworkImageLoaderTestHelper.swift in Sources */,
 				D815F0CF1F65D67D0084F69B /* UIImageViewExtensionTests.swift in Sources */,
+				D8DBBD131F6C45190081C844 /* ImageCacheTests.swift in Sources */,
 				D8FFDE731F5B5963008F799B /* NetworkImageLoaderTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
