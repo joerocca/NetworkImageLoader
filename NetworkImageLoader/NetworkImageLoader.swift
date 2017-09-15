@@ -28,7 +28,7 @@ public class NetworkImageLoader: NSObject {
             }
         }
         
-        if let cachedImage = self.imageCache.memoryCachedImage(forUrl: url),
+        if let cachedImage = self.imageCache.memoryCachedImage(forKey: url.absoluteString),
             forceRefresh == false {
             mainCompletion(cachedImage, nil)
             return nil

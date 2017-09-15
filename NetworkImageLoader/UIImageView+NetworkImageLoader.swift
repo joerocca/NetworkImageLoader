@@ -28,7 +28,7 @@ public extension UIImageView {
     //MARK: Methods
     public func setImage(withUrl url: URL, placeholderImage: UIImage? = nil, forceRefresh: Bool = false, completion: setImageCompletion? = nil) {
         //Check if image is available in memory cache. If image is available, apply it to UIImageView and return.
-        if let cachedImage = NetworkImageLoader.shared.imageCache.memoryCachedImage(forUrl: url),
+        if let cachedImage = NetworkImageLoader.shared.imageCache.memoryCachedImage(forKey: url.absoluteString),
             forceRefresh == false {
             self.image = cachedImage
             completion?(cachedImage, nil)
